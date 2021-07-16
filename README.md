@@ -14,7 +14,7 @@
 
 
 
-Esse é um template gerador de projetos que usaremos para a oficina. Se quiser espiar o projeto antes de cria-lo, [você pode faze-lo aqui](base/{{cookiecutter.repo_name}}/README.MD)
+Esse é um template gerador de projetos que usaremos para a oficina. Se quiser espiar o projeto antes de cria-lo, [você pode faze-lo aqui](base/{{cookiecutter.repo_name}})
 
 
 
