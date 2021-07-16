@@ -2,7 +2,8 @@
 
 
 ![Python Nordeste 2021](https://raw.githubusercontent.com/pythonNordeste/pyne2020/master/images/banner.png?raw=true)
-<small align="center">Autoria da imagem: https://2020.pythonnordeste.org/</small>
+<p>Imagem: <a href="https://2020.pythonnordeste.org"> Python Nordeste 2021</a></p>
+
 <h1 align="center">
     <br>
     <br>
