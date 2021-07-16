@@ -2,6 +2,7 @@
 
 
 ![Python Nordeste 2021](https://raw.githubusercontent.com/pythonNordeste/pyne2020/master/images/banner.png?raw=true)
+<small align="center">Autoria da imagem: https://2020.pythonnordeste.org/</small>
 <h1 align="center">
     <br>
     <br>
@@ -9,7 +10,7 @@
 <br>
 </h1>
 
-<h4 align="center">Oficina ministrada na <a href="http://electron.atom.io" target="_blank">Python Nordeste 2020-2021</a>.</h4>
+<h4 align="center">Oficina ministrada na <a href="https://2020.pythonnordeste.org/" target="_blank">Python Nordeste 2020-2021</a>.</h4>
 
 
 
