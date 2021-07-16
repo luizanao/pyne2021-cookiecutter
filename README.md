@@ -2,6 +2,8 @@
 
 
 ![Python Nordeste 2021](https://raw.githubusercontent.com/pythonNordeste/pyne2020/master/images/banner.png?raw=true)
+<p>Imagem: <a href="https://2020.pythonnordeste.org"> Python Nordeste 2021</a></p>
+
 <h1 align="center">
     <br>
     <br>
@@ -9,12 +11,12 @@
 <br>
 </h1>
 
-<h4 align="center">Oficina ministrada na <a href="http://electron.atom.io" target="_blank">Python Nordeste 2020-2021</a>.</h4>
+<h4 align="center">Oficina ministrada na <a href="https://2020.pythonnordeste.org/" target="_blank">Python Nordeste 2020-2021</a>.</h4>
 
 
 
 
-Esse é um template gerador de projetos que usaremos para a oficina. Se quiser espiar o projeto antes de cria-lo, [você pode faze-lo aqui](base/{{cookiecutter.repo_name}}/README.MD)
+Esse é um template gerador de projetos que usaremos para a oficina. Se quiser espiar o projeto antes de cria-lo, [você pode faze-lo aqui](base/{{cookiecutter.repo_name}})
 
 
 
