@@ -45,7 +45,7 @@ class CallControl:
         joke = await resp.json()
 
         # Return the joke
-        return joke["joke"]
+        return f"{joke['question']} {joke['answer']}"
 
     async def process_webhook(
         self, call_control_id: Optional[str], event_type: str
@@ -68,7 +68,7 @@ class CallControl:
             jk = await self._get_joke()
 
             # Sleep to ensure the speak happens after the user is listening
-            await asyncio.sleep(0.5)
+            await asyncio.sleep(0.7)
 
             # Request the joke be spoken in the call
             current_call.speak(payload=jk, voice="male", language="pt-BR")
