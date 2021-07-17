@@ -61,17 +61,16 @@ pip3 install -r requirements.txt
 1. Visite [Telnyx](https://portal.telnyx.com)
 2. Faça login com a conta fornecida para a Oficina
 3. Visite o menu lateral  [Call Controll](https://portal.telnyx.com/#/app/call-control/applications)
-4. Edite a conexão `Python Nordeste Workshop`
-5. Copie o id da conexão `Connection ID` em algum lugar - vamos usar em breve.
+4. Edite a conexão que já existe para seu usuário.
+5. Copie o id da conexão `ID` em algum lugar - vamos usar em breve.
 6. Atualize o `Webhook URL` com a URL gerada pelo ngrok
 
 > Adicione  /webhook no final da URL pois é nesse endpoint que nosso app vai receber Webhooks.
 
-7. Na mesma página, confirme se sua conta está usando `API v2 webhooks`
-8. Navegue para o menu lateral API Keys
-9. Crie uma nova API Key e copie para algum lugar - usaremos no nosso app.
-10. Visite `Numbers` menu
-11. Você já tem um número em sua conta, copie para usarmos em nosso app.
+7. Navegue para o menu lateral API Keys
+8. Crie uma nova API Key e copie para algum lugar - usaremos no nosso app.
+9. Visite `Numbers` menu
+10. Você já tem um número em sua conta, copie para usarmos em nosso app.
 
 
 
@@ -161,13 +160,13 @@ Arquivo de configuração onde armazenamos as variáveis estáticas do projeto
 
 Testes unitários e de integração.
 
-#### Makefile and  tasks
+#### Makefile
 
-Facilitadores para rodar o app e outras funcionalidades
+Facilitador para rodar o app e outras funcionalidades
 
 ### Funcionalidades
 
-Toda a lógica desse app 	está programada dentro do `infrastructure`.
+Toda a lógica desse app está programada dentro do `infrastructure`.
 
 `server` - Onde se encontram todos os HTTP handlers e configuração do servidor, middlewares e etc.
 `call_control.py` -  classe `CallControl`  que lida com os webhooks e dispara as ligações telefônicas.

@@ -43,11 +43,9 @@ async def main():
 
     coros = [
         save_website(client_session, "https://www.python.org", "python-org.html"),
-        save_website(client_session, "https://www.chipy.org/", "chipy.html"),
+        save_website(client_session, "https://djangogirls.org//", "dj.html"),
         save_website(client_session, "https://us.pycon.org/2020/", "pycon-2020.html"),
-        save_website(
-            client_session, "https://python.ie/pycon-2019/", "pyconie-2019.html"
-        ),
+        save_website(client_session, "https://2020.pythonnordeste.org/", "pyne.html"),
     ]
 
     await asyncio.gather(*coros)
