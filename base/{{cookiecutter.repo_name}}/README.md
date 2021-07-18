@@ -68,7 +68,7 @@ pip3 install -r requirements.txt
 > Adicione  /webhook no final da URL pois é nesse endpoint que nosso app vai receber Webhooks.
 
 7. Navegue para o menu lateral API Keys
-8. Crie uma nova API Key e copie para algum lugar - usaremos no nosso app.
+8. Copie a API Key e copie para algum lugar - usaremos no nosso app.
 9. Visite `Numbers` menu
 10. Você já tem um número em sua conta, copie para usarmos em nosso app.
 
