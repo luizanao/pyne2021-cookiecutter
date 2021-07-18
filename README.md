@@ -34,7 +34,7 @@ Assim que estiver instalado, você estará pronto para [criar o projeto](https:/
 
 ## Slides da Apresentação
 
-[Em breve](luizanao.github.io)
+[Link para os slides da Apresentaçāo](https://docs.google.com/presentation/d/1QyeVcOiJtCp5nIYP6LMY582-nDumqkHdU-49-kMpBM4)
 
 
 
