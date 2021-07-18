@@ -7,5 +7,5 @@
   "telnyx_api_key": "YOUR_TELNYX_V2_API_KEY",
   "telnyx_connection_id": "YOUR_TELNYX_CONNECTION_ID",
   "templates_dir": "dialajoke/templates",
-  "jokes_external_api_url": "https://api-charada.herokuapp.com/puzzle?lang=ptbr"
+  "jokes_external_api_url": "https://aiohttp-tutorial-pyne.herokuapp.com"
 }
